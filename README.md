@@ -1,5 +1,6 @@
 📊 Global Layoffs Data Analysis (2020-2023)
 A comprehensive SQL-based data analysis project exploring global workforce layoff trends across industries, companies, and geographic regions. This project demonstrates end-to-end data analysis skills including data cleaning, exploratory data analysis (EDA), and deriving actionable business insights.
+
 🎯 Project Objective
 Analyze global layoff data from 2020-2023 to identify:
 
@@ -121,20 +122,7 @@ SET t1.industry = t2.industry
 WHERE t1.industry IS NULL
 AND t2.industry IS NOT NULL;
 
-📂 Repository Structure
-layoffs-data-analysis/
-│
-├── README.md                          # Project documentation
-├── data/
-│   └── raw/
-│       └── layoffs.csv               # Original dataset
-│
-├── sql/
-│   ├── 01_data_cleaning.sql          # Data cleaning pipeline
-│   └── 02_exploratory_analysis.sql   # EDA queries
-│
-└── findings/
-    └── key_insights.md               # Detailed findings summary
+
 🚀 How to Use This Project
 Prerequisites
 
